@@ -2,10 +2,13 @@
 This project involves analyzing the 2011 Census of India using SQL. It includes two datasets covering various demographic factors such as population, literacy rates, sex ratios, and growth rates across different states and districts .
 
 # Key Findings:
-SQL queries for data extraction and aggregation.
-Analysis of literacy, sex ratio, and population growth.
-Exploration of geographic and demographic relationships.
-Custom queries for specific state and district-level insights.
+1) SQL queries for data extraction and aggregation.
+   
+2) Analysis of literacy, sex ratio, and population growth.
+ 
+3) Exploration of geographic and demographic relationships.
+ 
+4) Custom queries for specific state and district-level insights.
 
 First we need to create database then the table named dataset1 ,dataset2 and load data into them 
 ![Loading dataset1](https://github.com/user-attachments/assets/bab38b73-ada5-44ce-9366-b7a35c721575)
