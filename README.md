@@ -22,6 +22,25 @@ Dataset2:
 ![Q1](https://github.com/user-attachments/assets/90a22d1c-70cc-43f0-bd5e-7fc4df08083f)
 Explanation: These queries count the total number of rows in dataset1 and dataset2 using the count(*) function, which returns the total number of rows in each table.
 
+# Q2) Data for Jharkhand and Bihar:
+![Q2 A](https://github.com/user-attachments/assets/8abaf801-5a16-4c98-b739-afd3822184e5)
+Explanation:These queries filter the data to show only the rows where the state column is either 'Jharkhand' or 'Bihar'. The IN clause allows for checking multiple values in the state column.
+![Q2B](https://github.com/user-attachments/assets/9ee2dda6-5500-4cd7-b3be-e7ce9f22d1d9)
+
+# Q3) Total Population of India:
+![Q3](https://github.com/user-attachments/assets/6ccc8bbf-f42a-4cd5-a16a-347cb092817f)
+Explanation: This query calculates the total population by summing up all values in the population column of dataset2. The sum() function adds together all the values in a column.
+
+# Q4) Average Growth Rate:
+![Q4](https://github.com/user-attachments/assets/b19b7e6f-69f7-4988-b879-2a68b9269b12)
+Explanation: This query calculates the average growth rate across all entries in dataset1 using the avg() function. The result is labeled as result.
+
+
+
+
+
+
+
 
 
 
