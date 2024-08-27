@@ -70,11 +70,20 @@ Explanation: This query selects distinct states whose names end with the letter 
 ![Q11](https://github.com/user-attachments/assets/08bd3588-00c4-43ac-bb8f-e6cb663482a1)
 Explanation: This query joins dataset1 and dataset2 on the state column. It then groups the data by state and district and sums the area for each combination. The results are ordered by the total area in descending order.
 
-# Q12) Relation Between Literacy and Area
-![Q12](https://github.com/user-attachments/assets/3e244625-14a7-4737-8da5-6ebdafdf2563)
+# Q12) Relation Between Literacy and Area:
+![Q12](https://github.com/user-attachments/assets/c7c28d22-ff85-4c49-8824-e463b958d8d8)
+
 Explanation: This query analyzes the relationship between literacy and area by selecting data from both dataset1 and dataset2 (joined on the state column). The data is ordered by literacy in descending order.
 
-# Q13) 
+# Q13) Relation Between Sex Ratio and Area:
+![Q13](https://github.com/user-attachments/assets/fe9f3ff6-d453-47dc-8dc9-85048174ec57)
+Explanation: This query analyzes the relationship between sex ratio and area by joining dataset1 and dataset2 on the state column. The data is ordered by sex ratio in descending order.
+
+# Q14) Relation Between Growth of Population and Area:
+![Q14](https://github.com/user-attachments/assets/538f0976-2b48-41b6-b026-5ffb931b97c3)
+Explanation: This query analyzes the relationship between population growth and area by joining dataset1 and dataset2 on the state column. The data is ordered by growth rate in descending order.
+
+
 
 
 
