@@ -11,14 +11,21 @@ First we need to create database then the table named dataset1 ,dataset2 and loa
 ![Loading dataset1](https://github.com/user-attachments/assets/bab38b73-ada5-44ce-9366-b7a35c721575)
 This query creates a table named dataset1 with columns to store the district name, state name, sex ratio, literacy rate, and population growth rate. The varchar type is used for text data (district and state names), int for the sex ratio (a whole number), and float for literacy and growth rates (which are decimal values).
 
-
-
 Then we have a look at the data:
 Dataset 1:
 ![Loading dataset1](https://github.com/user-attachments/assets/c4c516c8-188c-400b-a11c-277615df30fe)
 
 Dataset2:
 ![Loading dataset2](https://github.com/user-attachments/assets/489dc39f-f7ee-4ca2-ad80-4096568a272a)
+
+# Q1) Count the Number of Rows in the Datasets:
+![Q1](https://github.com/user-attachments/assets/90a22d1c-70cc-43f0-bd5e-7fc4df08083f)
+Explanation: These queries count the total number of rows in dataset1 and dataset2 using the count(*) function, which returns the total number of rows in each table.
+
+
+
+
+
 
 
 
