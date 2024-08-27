@@ -38,6 +38,57 @@ Explanation: This query calculates the total population by summing up all values
 ![Q4](https://github.com/user-attachments/assets/b19b7e6f-69f7-4988-b879-2a68b9269b12)
 Explanation: This query calculates the average growth rate across all entries in dataset1 using the avg() function. The result is labeled as result.
 
+# Q5) Average Growth Rate per State:
+![Q5](https://github.com/user-attachments/assets/85ad13ae-a55f-4311-b42b-4ef3abc8857c)
+Explanation: This query calculates the average growth rate for each state by grouping the data by state. The results are ordered in descending order by the average growth rate (result).
+
+# Q6) Average Sex Ratio by State:
+![Q7](https://github.com/user-attachments/assets/28ea6081-488a-4c1e-9051-d64b754df530)
+Explanation: This query calculates the average sex ratio for each state. The avg() function calculates the average, and round() rounds the result to the nearest whole number. The states are ordered by the average sex ratio in descending order.
+
+# Q7) Average Literacy by State:
+![Q7](https://github.com/user-attachments/assets/308ca153-f6c7-4428-81c0-f8cb1b536717)
+Explanation: This query calculates the average literacy rate for each state. The avg() function computes the average, and ROUND() combined with CAST() converts the result to a numeric value and rounds it to the nearest whole number. The states are then ordered by the literacy rate in descending order.
+
+# Q8 A)  Sort States and Districts by Literacy Rate:
+![Q8A](https://github.com/user-attachments/assets/90e1e450-b52d-4756-b4d3-7bedefa84b08)
+Explanation: This query finds the maximum literacy rate for each state and district, grouping by both the state and district columns. The results are then sorted in descending order by the maximum literacy rate.
+
+# Q8 B)  States with Average Literacy > 90:
+![Q8B](https://github.com/user-attachments/assets/6542636f-7afc-4957-a353-bd88a41ff810)
+Explanation: This query filters the states to include only those with an average literacy rate greater than 90%. The HAVING clause is used here to filter groups based on the calculated average literacy rate, after grouping by state.
+
+# Q9)  States Starting with Letter A:
+![Q9](https://github.com/user-attachments/assets/5eaa49c1-7872-403c-8992-058609c437ea)
+Explanation: This query selects distinct states whose names start with the letter 'A'. The LIKE 'A%' pattern matches any string that begins with 'A', followed by any number of characters.
+
+# Q10) States Ending with Letter a:
+![Q10](https://github.com/user-attachments/assets/293e346f-2a8a-4573-8667-32a49c109a4d)
+Explanation: This query selects distinct states whose names end with the letter 'a'. The LIKE '%a' pattern matches any string that ends with 'a', preceded by any number of characters.
+
+# Q11) List of States and Districts with Total Area:
+![Q11](https://github.com/user-attachments/assets/08bd3588-00c4-43ac-bb8f-e6cb663482a1)
+Explanation: This query joins dataset1 and dataset2 on the state column. It then groups the data by state and district and sums the area for each combination. The results are ordered by the total area in descending order.
+
+# Q12) Relation Between Literacy and Area
+![Q12](https://github.com/user-attachments/assets/3e244625-14a7-4737-8da5-6ebdafdf2563)
+Explanation: This query analyzes the relationship between literacy and area by selecting data from both dataset1 and dataset2 (joined on the state column). The data is ordered by literacy in descending order.
+
+# Q13) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
