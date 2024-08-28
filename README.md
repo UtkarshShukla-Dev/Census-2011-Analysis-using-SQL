@@ -11,7 +11,10 @@ We are using PostgreSQL for Analysis .
  
 4) Custom queries for specific state and district-level insights.
 
-First we need to create database then the table named dataset1 ,dataset2 and load data into them 
+First we need to create database then the table named dataset1 ,dataset2 and load data into them :
+![Database creation](https://github.com/user-attachments/assets/8264bb68-c3e0-45ae-85ed-44a1bf819606)
+This will create a Database named Census 2011 Project .
+
 ![Loading dataset1](https://github.com/user-attachments/assets/bab38b73-ada5-44ce-9366-b7a35c721575)
 This query creates a table named dataset1 with columns to store the district name, state name, sex ratio, literacy rate, and population growth rate. The varchar type is used for text data (district and state names), int for the sex ratio (a whole number), and float for literacy and growth rates (which are decimal values).
 
