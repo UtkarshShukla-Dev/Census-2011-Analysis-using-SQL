@@ -1,5 +1,6 @@
 # Census-2011-Analysis-using-SQL
 This project involves analyzing the 2011 Census of India using SQL. It includes two datasets covering various demographic factors such as population, literacy rates, sex ratios, and growth rates across different states and districts .
+Built Database from data given on https://www.census2011.co.in/district.php?page=1 
 We are using PostgreSQL for Analysis .
 
 # Key Findings:
